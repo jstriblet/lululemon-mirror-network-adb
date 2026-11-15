@@ -17,6 +17,12 @@ the warnings.
 
 ---
 
+## Screenshots
+
+![A custom launcher running on the unlocked Mirror: a clock, in place of the stock setup screen](docs/images/custom-launcher-clock.png)
+
+*After the unlock, the Mirror runs your own Android launcher. Above: a minimal clock replacing the stock "set up" screen.*
+
 ## ⚠️ Warnings — read before anything
 
 - **This wipes the Mirror's app data and settings.** Replacing `userdata` returns
