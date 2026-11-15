@@ -1,5 +1,8 @@
 # Network ADB on a Lululemon Mirror that never shows up on USB (RevP17, stock 1.16.0)
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/striblet)
+
+
 This repo documents how one owner enabled **authorized ADB over a direct Ethernet
 cable** on a Lululemon Studio Mirror (Model One) whose Qualcomm board **never
 enumerates on USB in Android** — not even as an unauthorized device. The USB-only
