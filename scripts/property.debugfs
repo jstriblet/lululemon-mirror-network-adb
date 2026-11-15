@@ -1,0 +1,15 @@
+mkdir /property
+write @OUT@/usb-config.value /property/persist.sys.usb.config
+write @OUT@/tcp-port.value /property/persist.adb.tcp.port
+set_inode_field /property uid 0
+set_inode_field /property gid 0
+set_inode_field /property mode 040700
+ea_set -f @OUT@/property_data_file.label /property security.selinux
+set_inode_field /property/persist.sys.usb.config uid 0
+set_inode_field /property/persist.sys.usb.config gid 0
+set_inode_field /property/persist.sys.usb.config mode 0100600
+ea_set -f @OUT@/property_data_file.label /property/persist.sys.usb.config security.selinux
+set_inode_field /property/persist.adb.tcp.port uid 0
+set_inode_field /property/persist.adb.tcp.port gid 0
+set_inode_field /property/persist.adb.tcp.port mode 0100600
+ea_set -f @OUT@/property_data_file.label /property/persist.adb.tcp.port security.selinux

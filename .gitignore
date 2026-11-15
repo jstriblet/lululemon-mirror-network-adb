@@ -1,0 +1,13 @@
+# Never commit images or keys to this repo.
+*.sparse
+*.img
+*.bin
+# ADB keys (public or private) must never be committed.
+adbkey
+adbkey.pub
+*.pub
+adb_keys
+# Build output and local checkouts.
+out/
+output/
+lulu-mirror-software-only/
