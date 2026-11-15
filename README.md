@@ -23,6 +23,20 @@ the warnings.
 
 *After the unlock, the Mirror runs your own Android launcher. Above: a minimal clock replacing the stock "set up" screen.*
 
+## Photos
+
+**The main board.** `SW3` (VOL-) and `SW1` (VOL+) are the two small buttons used to reach fastboot; the micro-USB (`J1`) and Ethernet are at the lower edge. Board ID `MIR63A0-OO-P1 / PCA#500240 / RevP17` is visible; the unit serial and QR are redacted.
+
+![Mirror main board showing SW1/SW3 and USB](docs/images/mainboard-buttons.jpg)
+
+**Internals / teardown.**
+
+![Mirror opened, showing the panel, boards and power supply](docs/images/teardown-internals.jpg)
+
+**Stock state before the work** (the "not connected" setup screen; hotspot name redacted).
+
+![Stock Mirror setup screen](docs/images/stock-setup-screen.jpg)
+
 ## ⚠️ Warnings — read before anything
 
 - **This wipes the Mirror's app data and settings.** Replacing `userdata` returns
